@@ -11,3 +11,8 @@
 
 // caps word
 #define CAPS_WORD_INVERT_ON_SHIFT
+
+// mouse control
+#define MOUSEKEY_MAX_SPEED 5
+#define MOUSEKEY_WHEEL_INTERVAL 40
+#define MOUSEKEY_OVERLAP_RESET
