@@ -12,3 +12,7 @@
 #define SFT_K RSFT_T(KC_K)
 #define ALT_L RALT_T(KC_L)
 #define GUI_SCLN RGUI_T(KC_SCLN)
+
+// layer holds
+#define MO_MOVE MO(_MOVE)
+#define MO_PROG MO(_PROG)
