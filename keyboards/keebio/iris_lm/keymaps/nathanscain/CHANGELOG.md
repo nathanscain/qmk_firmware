@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Currently unused tri-layer enable. Replace with simple MO keys for MOVE and PROG layers.
 
+### Fixed
+
+-   Quick access to CTRL z, x, c, and v made explicit to fix consistency.
+
 ## 0.1.1 - 2025-07-11
 
 ### Added
