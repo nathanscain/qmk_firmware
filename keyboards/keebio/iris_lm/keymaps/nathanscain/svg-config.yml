@@ -1,0 +1,18 @@
+draw_config:
+  key_h: 70.0
+  split_gap: 50.0
+  key_rx: 6.0
+  key_ry: 6.0
+  dark_mode: true
+  inner_pad_w: 4.0
+  inner_pad_h: 4.0
+  line_spacing: 1.2
+  small_pad: 6.0
+  legend_rel_x: 0.0
+  legend_rel_y: 0.0
+  svg_extra_style: ""
+  footer_text: "Version 0.2.0"
+  glyph_tap_size: 14
+  glyph_hold_size: 12
+  glyph_shifted_size: 10
+  glyphs: {}

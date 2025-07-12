@@ -1,0 +1,194 @@
+layout: { qmk_keyboard: keebio/iris_lm/k1, layout_name: LAYOUT }
+layers:
+  QUERTY:
+    # top row
+    - { tap: "`", shifted: "~" }
+    - { tap: "1", shifted: "!" }
+    - { tap: "2", shifted: "@" }
+    - { tap: "3", shifted: "#" }
+    - { tap: "4", shifted: "$" }
+    - { tap: "5", shifted: "%" }
+    - { tap: "6", shifted: "^" }
+    - { tap: "7", shifted: "&" }
+    - { tap: "8", shifted: "*" }
+    - { tap: "9", shifted: "(" }
+    - { tap: "0", shifted: ")" }
+    - Back Space
+    # upper row
+    - { tap: "-", shifted: "_" }
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - Delete
+    # home row
+    - Tab
+    - { tap: A, hold: GUI }
+    - { tap: S, hold: Alt }
+    - { tap: D, hold: Shift }
+    - { tap: F, hold: Ctrl }
+    - G
+    - H
+    - { tap: J, hold: Ctrl }
+    - { tap: K, hold: Shift }
+    - { tap: L, hold: Alt }
+    - { tap: ;, hold: GUI }
+    - { tap: "'", hold: '"' }
+    # bottom row left
+    - { tap: "Escape", shifted: "~" }
+    - Z
+    - X
+    - C
+    - V
+    - B
+    # upper thumbs
+    - Ctrl
+    - Toggle CW
+    # bottom row right
+    - N
+    - M
+    - { tap: ",", shifted: "<" }
+    - { tap: ".", shifted: ">" }
+    - { tap: "/", shifted: "?" }
+    - Shift
+    # lower thumbs
+    - GUI
+    - { tap: MOVE Layer, type: layer-activator }
+    - Enter
+    - Space
+    - { tap: PROG Layer, type: layer-activator }
+    - Alt
+  MOVE:
+    # top row
+    - Prev Color
+    - Next Color
+    - Bright Down
+    - Bright Up
+    - Clear EEPROM
+    - Boot
+    - F6
+    - F7
+    - F8
+    - F9
+    - F10
+    - F11
+    # upper row
+    - Toggle Color
+    - Scroll Left
+    - Scroll Down
+    - Scroll Up
+    - Scroll Right
+    - Volume Up
+    - Mouse Left
+    - Mouse Down
+    - Mouse Up
+    - Mouse Right
+    - Mouse 1
+    - Mouse 2
+    # home row
+    - Delete
+    - GUI
+    - Alt
+    - Shift
+    - Ctrl
+    - Volume Down
+    - Left
+    - Down
+    - Up
+    - Right
+    - Mouse 3
+    - Mouse 4
+    # bottom row left
+    - "`"
+    - Undo
+    - Cut
+    - Copy
+    - Paste
+    - Mute
+    # upper thumbs
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    # bottom row right
+    - Home
+    - Page Down
+    - Page Up
+    - End
+    - Back
+    - Forward
+    # lower thumbs
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: held }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+  PROG:
+    # top row
+    - F12
+    - F1
+    - F2
+    - F3
+    - F4
+    - F5
+    - Boot
+    - Clear EEPROM
+    - ""
+    - ""
+    - ""
+    - ""
+    # upper row
+    - Insert
+    - <
+    - ">"
+    - "{"
+    - "}"
+    - ":"
+    - ""
+    - "!"
+    - "@"
+    - "#"
+    - $
+    - "%"
+    # home row
+    - Delete
+    - "["
+    - "]"
+    - (
+    - )
+    - _
+    - "="
+    - Ctrl
+    - Shift
+    - Alt
+    - GUI
+    - \
+    # bottom row left
+    - "%"
+    - ^
+    - "*"
+    - /
+    - +
+    - "-"
+    # upper thumbs
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    # bottom row right
+    - ""
+    - ^
+    - "&"
+    - "*"
+    - "|"
+    - "?"
+    # lower thumbs
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: held }
+    - { tap: ▽, type: trans }
