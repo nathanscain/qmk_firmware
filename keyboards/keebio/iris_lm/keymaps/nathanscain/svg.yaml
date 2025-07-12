@@ -41,7 +41,7 @@ layers:
     - { tap: ;, hold: GUI }
     - { tap: "'", hold: '"' }
     # bottom row left
-    - { tap: "Escape", shifted: "~" }
+    - { tap: "Esc", shifted: "~" }
     - Z
     - X
     - C
@@ -49,7 +49,7 @@ layers:
     - B
     # upper thumbs
     - Ctrl
-    - Toggle CW
+    - Caps Words
     # bottom row right
     - N
     - M
@@ -66,10 +66,10 @@ layers:
     - Alt
   MOVE:
     # top row
-    - Prev Color
-    - Next Color
-    - Bright Down
-    - Bright Up
+    - Color ⮜
+    - Color ⮞
+    - Bright ⮟
+    - Bright ⮝
     - Clear EEPROM
     - Boot
     - F6
@@ -80,15 +80,15 @@ layers:
     - F11
     # upper row
     - Toggle Color
-    - Scroll Left
-    - Scroll Down
-    - Scroll Up
-    - Scroll Right
-    - Volume Up
-    - Mouse Left
-    - Mouse Down
-    - Mouse Up
-    - Mouse Right
+    - Scroll ⮜
+    - Scroll ⮟
+    - Scroll ⮝
+    - Scroll ⮞
+    - Volume ⮝
+    - Mouse ⮜
+    - Mouse ⮟
+    - Mouse ⮝
+    - Mouse ⮞
     - Mouse 1
     - Mouse 2
     # home row
@@ -97,11 +97,11 @@ layers:
     - Alt
     - Shift
     - Ctrl
-    - Volume Down
-    - Left
-    - Down
-    - Up
-    - Right
+    - Volume ⮟
+    - ⮜
+    - ⮟
+    - ⮝
+    - ⮞
     - Mouse 3
     - Mouse 4
     # bottom row left
@@ -116,11 +116,11 @@ layers:
     - { tap: ▽, type: trans }
     # bottom row right
     - Home
-    - Page Down
-    - Page Up
+    - Page ⮟
+    - Page ⮝
     - End
-    - Back
-    - Forward
+    - Browse ⮜
+    - Browse ⮞
     # lower thumbs
     - { tap: ▽, type: trans }
     - { tap: ▽, type: held }
