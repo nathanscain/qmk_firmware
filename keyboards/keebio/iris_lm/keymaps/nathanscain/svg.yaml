@@ -169,10 +169,10 @@ layers:
     - GUI
     - \
     # bottom row left
+    - ""
     - "%"
-    - ^
-    - "*"
     - /
+    - "*"
     - +
     - "-"
     # upper thumbs
@@ -182,9 +182,9 @@ layers:
     - ""
     - ^
     - "&"
-    - "*"
     - "|"
     - "?"
+    - ""
     # lower thumbs
     - { tap: ▽, type: trans }
     - { tap: ▽, type: trans }

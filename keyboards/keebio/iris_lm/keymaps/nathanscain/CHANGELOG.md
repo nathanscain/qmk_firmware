@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Moved resets to top-inner corner to avoid accidently triggers and shifted existing keys.
 -   Commit custom SVG of keymap instead of QMK Configurator JSON.
+-   Updated the operator key positions on the bottom row of the programming layer to be more
+    intuitive.
 
 ### Removed
 
