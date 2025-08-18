@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 0.2.0 - UNRELEASED
+## 0.2.0 - 2025-08-17
 
 ### Changed
 
@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Commit custom SVG of keymap instead of QMK Configurator JSON.
 -   Updated the operator key positions on the bottom row of the programming layer to be more
     intuitive.
+-   Bumped QMK to 0.29.12
 
 ### Removed
 
