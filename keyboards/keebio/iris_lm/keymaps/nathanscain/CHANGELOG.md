@@ -9,7 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
--   Flipped `_` and `:` on Programming layer after repeated typos.
+-   Flipped `_` and `:` on PROG layer after repeated typos.
+-   Replaced dedicated grave and quick access ctrl keys on MOVE layer with media and brightness
+    controls.
+-   Replace delete on MOVE layer with Mission Control.
 -   Bumped QMK to 0.30.6
 
 ## 0.2.0 - 2025-08-17

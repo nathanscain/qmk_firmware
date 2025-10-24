@@ -16,9 +16,3 @@
 // layer holds
 #define MO_MOVE MO(_MOVE)
 #define MO_PROG MO(_PROG)
-
-// one-hand shortcuts
-#define CTRL_Z LCTL(KC_Z)
-#define CTRL_X LCTL(KC_X)
-#define CTRL_C LCTL(KC_C)
-#define CTRL_V LCTL(KC_V)

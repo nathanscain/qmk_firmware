@@ -33,9 +33,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      RM_TOGG, MS_WHLL, MS_WHLD, MS_WHLU, MS_WHLR, KC_VOLU,                            MS_LEFT, MS_DOWN, MS_UP,   MS_RGHT, MS_BTN1, MS_BTN2,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_DEL,  KC_LGUI, KC_LALT, KC_LSFT, KC_LCTL, KC_VOLD,                            KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, MS_BTN3, MS_BTN4,
+     KC_MCTL, KC_LGUI, KC_LALT, KC_LSFT, KC_LCTL, KC_VOLD,                            KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, MS_BTN3, MS_BTN4,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_GRV,  CTRL_Z,  CTRL_X,  CTRL_C,  CTRL_V,  KC_MUTE, _______,          _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_WBAK, KC_WFWD,
+     KC_BRID, KC_BRIU, KC_MRWD, KC_MPLY, KC_MFFD, KC_MUTE, _______,          _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_WBAK, KC_WFWD,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     _______, _______, _______,                   _______, _______, _______
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘

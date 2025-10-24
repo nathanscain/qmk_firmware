@@ -66,10 +66,10 @@ layers:
     - Alt
   MOVE:
     # top row
-    - Color ⮜
-    - Color ⮞
-    - Bright ⮟
-    - Bright ⮝
+    - KB Color ⮜
+    - KB Color ⮞
+    - KB Bright ⮟
+    - KB Bright ⮝
     - Clear EEPROM
     - Boot
     - F6
@@ -79,7 +79,7 @@ layers:
     - F10
     - F11
     # upper row
-    - Toggle Color
+    - KB Toggle Color
     - Scroll ⮜
     - Scroll ⮟
     - Scroll ⮝
@@ -92,7 +92,7 @@ layers:
     - Mouse 1
     - Mouse 2
     # home row
-    - Delete
+    - Mission Control
     - GUI
     - Alt
     - Shift
@@ -105,11 +105,11 @@ layers:
     - Mouse 3
     - Mouse 4
     # bottom row left
-    - "`"
-    - Undo
-    - Cut
-    - Copy
-    - Paste
+    - Display Bright ⮟
+    - Display Bright ⮝
+    - ⮜⮜
+    - Play Pause
+    - ⮞⮞
     - Mute
     # upper thumbs
     - { tap: ▽, type: trans }
