@@ -39,7 +39,7 @@ layers:
     - { tap: K, hold: Shift }
     - { tap: L, hold: Alt }
     - { tap: ;, hold: GUI }
-    - { tap: "'", hold: '"' }
+    - { tap: "'", shifted: '"' }
     # bottom row left
     - { tap: "Esc", shifted: "~" }
     - Z

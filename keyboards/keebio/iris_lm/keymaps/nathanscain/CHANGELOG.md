@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 0.3.0 - UNRELEASED
+## 0.3.0 - 2025-10-23
 
 ### Changed
 
@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Replace delete on MOVE layer with Mission Control.
 -   Replaced Left Alt with Delete and Delete with Back Slash.
 -   Bumped QMK to 0.30.6
+
+### Fixed
+
+-   Double quote was in the `held` position in the keymap SVG instead of the `shifted` position.
 
 ## 0.2.0 - 2025-08-17
 
