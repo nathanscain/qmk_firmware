@@ -26,7 +26,7 @@ layers:
     - I
     - O
     - P
-    - Delete
+    - { tap: "\\", shifted: "|" }
     # home row
     - Tab
     - { tap: A, hold: GUI }
@@ -63,7 +63,7 @@ layers:
     - Enter
     - Space
     - { tap: PROG Layer, type: layer-activator }
-    - Alt
+    - Delete
   MOVE:
     # top row
     - KB Color ⮜
