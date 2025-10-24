@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+-   Flipped `_` and `:` on Programming layer after repeated typos.
 -   Bumped QMK to 0.30.6
 
 ## 0.2.0 - 2025-08-17
