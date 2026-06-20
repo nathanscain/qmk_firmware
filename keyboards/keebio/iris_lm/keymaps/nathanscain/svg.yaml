@@ -1,6 +1,6 @@
 layout: { qmk_keyboard: keebio/iris_lm/k1, layout_name: LAYOUT }
 layers:
-  QUERTY:
+  BASE:
     # top row
     - { tap: "`", shifted: "~" }
     - { tap: "1", shifted: "!" }
@@ -59,10 +59,10 @@ layers:
     - Shift
     # lower thumbs
     - GUI
-    - { tap: MOVE Layer, type: layer-activator }
+    - { tap: MOVE Layer Hold, type: layer-activator }
     - Enter
     - Space
-    - { tap: PROG Layer, type: layer-activator }
+    - { tap: PROG Layer Hold, type: layer-activator }
     - Delete
   MOVE:
     # top row
@@ -177,7 +177,7 @@ layers:
     - "-"
     # upper thumbs
     - { tap: ▽, type: trans }
-    - { tap: ▽, type: trans }
+    - { tap: GAME Layer Switch, type: layer-activator }
     # bottom row right
     - ""
     - ^
@@ -191,4 +191,68 @@ layers:
     - { tap: ▽, type: trans }
     - { tap: ▽, type: trans }
     - { tap: ▽, type: held }
+    - { tap: ▽, type: trans }
+  GAME:
+    # top row
+    - { tap: "Esc", shifted: "~" }
+    - { tap: "1", shifted: "!" }
+    - { tap: "2", shifted: "@" }
+    - { tap: "3", shifted: "#" }
+    - { tap: "4", shifted: "$" }
+    - { tap: "5", shifted: "%" }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    # upper row
+    - H
+    - T
+    - Q
+    - W
+    - E
+    - R
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    # home row
+    - Shift
+    - G
+    - A
+    - S
+    - D
+    - F
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    # bottom row left
+    - Alt
+    - B
+    - Z
+    - X
+    - C
+    - V
+    # upper thumbs
+    - Enter
+    - { tap: BASE Layer Switch, type: layer-activator }
+    # bottom row right
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
+    # lower thumbs
+    - Tab
+    - Ctrl
+    - Space
+    - { tap: ▽, type: trans }
+    - { tap: ▽, type: trans }
     - { tap: ▽, type: trans }

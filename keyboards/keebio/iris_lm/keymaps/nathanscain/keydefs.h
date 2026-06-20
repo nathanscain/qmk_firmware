@@ -16,3 +16,7 @@
 // layer holds
 #define MO_MOVE MO(_MOVE)
 #define MO_PROG MO(_PROG)
+
+// layer switches
+#define TO_BASE TO(_BASE)
+#define TO_GAME TO(_GAME)

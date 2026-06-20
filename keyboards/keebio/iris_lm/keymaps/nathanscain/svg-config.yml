@@ -11,7 +11,7 @@ draw_config:
   legend_rel_x: 0.0
   legend_rel_y: 0.0
   svg_extra_style: ""
-  footer_text: "Version 0.3.0"
+  footer_text: "Version 0.4.0"
   glyph_tap_size: 14
   glyph_hold_size: 12
   glyph_shifted_size: 10

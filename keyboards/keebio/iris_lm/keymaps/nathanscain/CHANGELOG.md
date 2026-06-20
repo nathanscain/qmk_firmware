@@ -7,8 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.4.0 - UNRELEASED
 
+### Added
+
+-   Gaming layer with letters shifted right (WASD -> ESDF), no home row mods, and direct access to
+    common gaming modifers (Shift, Alt, Ctrl).
+
 ### Changed
 
+-   Renamed Querty layer to Base.
 -   Bumped QMK to 0.33.7
 
 ## 0.3.0 - 2025-10-23
